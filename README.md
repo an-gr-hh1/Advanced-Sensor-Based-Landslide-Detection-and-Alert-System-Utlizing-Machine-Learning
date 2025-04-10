@@ -46,16 +46,18 @@
 
 ### ✅ Evaluation Metrics
 
-<ul>
-  <li>
-    <strong>SHAP Analysis</strong> & <strong>Confusion Matrix</strong><br/>
-    <img src="images/matrix plot.jpg" alt="SHAP Summary Plot and Confusion Matrix" width="90%"/>
-  </li>
-  <li>
-    <strong>ROC Curve</strong> & <strong>Precision-Recall Curve</strong><br/>
-    <img src="images/curve.jpg" alt="ROC and PR Curve" width="90%"/>
-  </li>
-</ul>
+
+- <strong>SHAP Analysis</strong> & <strong>Confusion Matrix</strong><br/>
+   <p align="center"><img src="images/matrix plot.jpg" alt="SHAP Summary Plot and Confusion Matrix" width="800" class="center" style="margin-bottom: 10px;"/></p>
+- <strong>ROC Curve</strong> & <strong>Precision-Recall Curve</strong><br/>
+   <p align="center"><img src="images/curve.jpg" alt="ROC and PR Curve" width="800" class="center" style="margin-bottom: 10px;"/></p>
+- <strong>Evaluation Metrics</strong>
+   <p align="center"><img src="images/metrics_heatmap.png" alt="Heatmap of Metrics" width="800" class="center" style="margin-bottom: 10px;"/></p>
+   
+| **Metric**  | **AUC** | **Precision** | **F1-Score** | **Recall** | **Specificity** |
+|-------------|---------|---------------|--------------|------------|-----------------|
+|   Training  | 0.9782  | 0.9637        | 0.8266       | 0.7238     | 0.9908          |
+|   Testing   | 0.9774  | 0.9590        | 0.8250       | 0.7200     | 0.9914          |
 
 
 ---
@@ -68,7 +70,7 @@ Various models were tested including:
 - Support Vector Machines
 - Logistic Regression
 
-<img src="images/output.png" alt="Comparison of Models" width="90%" style="margin-bottom: 10px;"/>
+<p align="center"><img src="images/output.png" alt="Comparison of Models" width="800" class="center" style="margin-bottom: 10px;"/></p>
 
 | Model                   | Accuracy | Recall  | F1-Score | Specificity |
 |-------------------------|----------|---------|----------|-------------|
@@ -95,7 +97,7 @@ LightGBM outperformed other models in terms of both accuracy and generalization.
   - 🟡 Moderate
   - 🔴 High
 
-<img src="images/landslide_risk.jpg" alt="Heatmap" width="90%" style="margin-right: 10px;"/>
+<p align="center"><img src="images/landslide_risk.jpg" alt="Heatmap" width="800" class="center"/></p>
 
 ---
 
@@ -103,7 +105,7 @@ LightGBM outperformed other models in terms of both accuracy and generalization.
 
 ### 🖼️ Circuit Diagram and Setup
 
-<p align="center" gap="10px">
+<p align="center">
   <img src="images/circuit.png" alt="Circuit Diagram" width="50%" height="350px"/>
   <img src="images/iot.png" alt="Final Setup" width="40%" height="350px"/>
 </p>
