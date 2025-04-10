@@ -46,13 +46,18 @@
 
 ### ✅ Evaluation Metrics
 
-| Model       | Accuracy | Precision | Recall | F1-Score |
-|-------------|----------|-----------|--------|----------|
-| LightGBM    | XX%      | XX%       | XX%    | XX%      |
-| RandomForest| XX%      | XX%       | XX%    | XX%      |
-| SVM         | XX%      | XX%       | XX%    | XX%      |
+| Model                   | Accuracy | ROC-AUC   | Recall  | F1-Score |  Specificity |
+|-------------------------|----------|-----------|---------|----------|--------------|
+| LightGBM                | 83.99%   | 91.55%    | 84.63%  | 84.63%   | 84.63%       |
+| RandomForest            | 84.63%   | 84.63%    | 84.63%  | 84.63%   | 84.63%       |
+| SVM                     | 84.63%   | 84.63%    | 84.63%  | 84.63%   | 84.63%       |
+| Gradient Boosting       | 84.63%   | 84.63%    | 84.63%  | 84.63%   | 84.63%       |
+| MultiLayer Perceptron   | 84.63%   | 84.63%    | 84.63%  | 84.63%   | 84.63%       |
+| CNN                     | 84.63%   | 84.63%    | 84.63%  | 84.63%   | 84.63%       |
+| Logistic Classifier     | 84.63%   | 84.63%    | 84.63%  | 84.63%   | 84.63%       |
+| AdaBoost                | 84.63%   | 84.63%    | 84.63%  | 84.63%   | 84.63%       |
+| NaiveBayes Classifier   | 84.63%   | 84.63%    | 84.63%  | 84.63%   | 84.63%       |
 
-*Note: Replace "XX%" with actual results from `Model_Comparison.ipynb`.*
 
 ### 📈 Plot Explanations
 
@@ -80,8 +85,7 @@ LightGBM outperformed other models in terms of both accuracy and generalization.
 - Risk levels:
   - 🟢 Low
   - 🟡 Moderate
-  - 🟠 High
-  - 🔴 Extreme
+  - 🔴 High
 
 These points are dynamically updated based on real-time data and model prediction.
 
@@ -90,8 +94,8 @@ These points are dynamically updated based on real-time data and model predictio
 ## 🔧 IoT System Details
 
 ### 🖼️ Circuit Diagram and Setup
-![Circuit Diagram](images/circuit_diagram.png)
-![Final Setup](images/final_setup.jpg)
+![Circuit Diagram](images/circuit.png)
+![Final Setup](images/iot.png)
 
 ### 📏 Equations and Logic Used
 
