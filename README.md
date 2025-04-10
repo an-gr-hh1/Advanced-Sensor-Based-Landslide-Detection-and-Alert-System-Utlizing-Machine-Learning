@@ -7,7 +7,7 @@
 
 1. **Install dependencies**
    ```bash
-   pip install -r requirements.txt
+   pip install tensorflow keras
    ```
 
 2. **Run the Jupyter notebooks**
@@ -46,17 +46,19 @@
 
 ### ✅ Evaluation Metrics
 
-| Model                   | Accuracy | ROC-AUC   | Recall  | F1-Score |  Specificity |
-|-------------------------|----------|-----------|---------|----------|--------------|
-| LightGBM                | 83.99%   | 91.55%    | 84.63%  | 84.63%   | 84.63%       |
-| RandomForest            | 84.63%   | 84.63%    | 84.63%  | 84.63%   | 84.63%       |
-| SVM                     | 84.63%   | 84.63%    | 84.63%  | 84.63%   | 84.63%       |
-| Gradient Boosting       | 84.63%   | 84.63%    | 84.63%  | 84.63%   | 84.63%       |
-| MultiLayer Perceptron   | 84.63%   | 84.63%    | 84.63%  | 84.63%   | 84.63%       |
-| CNN                     | 84.63%   | 84.63%    | 84.63%  | 84.63%   | 84.63%       |
-| Logistic Classifier     | 84.63%   | 84.63%    | 84.63%  | 84.63%   | 84.63%       |
-| AdaBoost                | 84.63%   | 84.63%    | 84.63%  | 84.63%   | 84.63%       |
-| NaiveBayes Classifier   | 84.63%   | 84.63%    | 84.63%  | 84.63%   | 84.63%       |
+<img src="images/output.png" alt="Comparison of Models" width="45%" style="margin-bottom: 10px;"/>
+
+| Model                   | Accuracy | Recall  | F1-Score | Specificity |
+|-------------------------|----------|---------|----------|-------------|
+| LightGBM                | 83.99%   | 88.17%  | 84.64%   | 79.82%      |
+| RandomForest            | 83.55%   | 87.78%  | 84.22%   | 79.31%      |
+| Gradient Boosting       | 83.23%   | 87.53%  | 83.92%   | 78.92%      |
+| SVM                     | 82.97%   | 89.72%  | 84.05%   | 76.22%      |
+| MultiLayer Perceptron   | 82.52%   | 84.58%  | 82.87%   | 80.46%      |
+| CNN                     | 82.13%   | 85.86%  | 82.78%   | 78.41%      |
+| Logistic Classifier     | 80.78%   | 84.19%  | 81.42%   | 77.38%      |
+| AdaBoost                | 79.43%   | 80.98%  | 79.75%   | 77.89%      |
+| NaiveBayes Classifier   | 71.98%   | 67.87%  | 70.78%   | 76.09%      |
 
 
 ### 📈 Plot Explanations
