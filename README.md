@@ -95,8 +95,8 @@ These points are dynamically updated based on real-time data and model predictio
 
 ### 🖼️ Circuit Diagram and Setup
 <p align="center">
-  <img src="images/circuit.png" alt="Circuit Diagram" width="50%" height="350px" style="margin-right: 5px;"/>
-  <img src="images/iot.png" alt="Final Setup" width="40%" height="350px"/>
+  <img src="images/circuit.png" alt="Circuit Diagram" width="50%" height="350px"/>
+  <img src="images/iot.png" alt="Final Setup" width="40%" height="350px" style="margin-right: 10px;"/>
 </p>
 
 1. ESP32 Microcontroller  
