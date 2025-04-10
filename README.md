@@ -94,8 +94,11 @@ These points are dynamically updated based on real-time data and model predictio
 ## 🔧 IoT System Details
 
 ### 🖼️ Circuit Diagram and Setup
-![Circuit Diagram](images/circuit.png)
-![Final Setup](images/iot.png)
+<p align="center">
+  <img src="images/circuit.png" alt="Circuit Diagram" width="45%" style="margin-right: 10px;"/>
+  <img src="images/iot.png" alt="Final Setup" width="45%"/>
+</p>
+
 
 ### 📏 Equations and Logic Used
 
