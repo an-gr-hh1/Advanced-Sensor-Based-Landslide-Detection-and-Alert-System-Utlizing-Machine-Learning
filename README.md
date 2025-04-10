@@ -48,20 +48,12 @@
 
 <ul>
   <li>
-    <strong>SHAP Analysis</strong>: Shows feature contribution for better explainability.<br/>
-    <img src="images/shap.png" alt="SHAP Summary Plot" width="45%"/>
+    <strong>SHAP Analysis</strong> & <strong>Confusion Matrix</strong><br/>
+    <img src="images/matrix plot.png" alt="SHAP Summary Plot" width="85%"/>
   </li>
   <li>
-    <strong>Confusion Matrix</strong>: Highlights class prediction distribution.<br/>
-    <img src="images/confusion.png" alt="Confusion Matrix" width="45%"/>
-  </li>
-  <li>
-    <strong>ROC Curve</strong>: Compares true positive rate vs. false positive rate.<br/>
-    <img src="images/roc.png" alt="ROC Curve" width="45%"/>
-  </li>
-  <li>
-    <strong>Precision-Recall Curve</strong>: Compares precision vs. recall rate.<br/>
-    <img src="images/pr.png" alt="Precision-Recall Curve" width="45%"/>
+    <strong>ROC Curve</strong> & <strong>Precision-Recall Curve</strong><br/>
+    <img src="images/curve.png" alt="ROC Curve" width="85%"/>
   </li>
 </ul>
 
@@ -103,7 +95,7 @@ LightGBM outperformed other models in terms of both accuracy and generalization.
   - 🟡 Moderate
   - 🔴 High
 
-<img src="images/Heatmap_satellite.jpg" alt="Heatmap" width="45%" style="margin-right: 10px;"/>
+<img src="images/landslide_risk.jpg" alt="Heatmap" width="85%" style="margin-right: 10px;"/>
 
 ---
 
