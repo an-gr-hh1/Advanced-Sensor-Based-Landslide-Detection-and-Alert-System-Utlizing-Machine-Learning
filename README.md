@@ -163,12 +163,12 @@ LightGBM outperformed other models in terms of both accuracy and generalization.
 - Reporting incidents and Community Forum
 
 <p align="center">
-  <img src="images/dashboard.jpg" alt="Dashboard" width="45%" height="450px"/>
-  <img src="images/alert.jpg" alt="Alert Modal" width="45%" height="450px"/>
+  <img src="images/dashboard.jpg" alt="Dashboard" width="250px" height="450px"/>
+  <img src="images/alert.jpg" alt="Alert Modal" width="250px" height="450px"/>
 </p>
 <p align="center">
-  <img src="images/map.jpg" alt="Interactive Map" width="45%" height="450px"/>
-  <img src="images/forum.jpg" alt="Community Forum" width="45%" height="450px"/>
+  <img src="images/map.jpg" alt="Interactive Map" width="250px" height="450px"/>
+  <img src="images/forum.jpg" alt="Community Forum" width="250px" height="450px"/>
 </p>
 
 ---
