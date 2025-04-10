@@ -52,13 +52,13 @@
 - <strong>ROC Curve</strong> & <strong>Precision-Recall Curve</strong><br/>
    <p align="center"><img src="images/curve.jpg" alt="ROC and PR Curve" width="800" class="center" style="margin-bottom: 10px;"/></p>
 - <strong>Evaluation Metrics</strong>
-   <p align="center"><img src="images/metrics_heatmap.png" alt="Heatmap of Metrics" width="800" class="center" style="margin-bottom: 10px;"/></p>
    
-| **Metric**  | **AUC** | **Precision** | **F1-Score** | **Recall** | **Specificity** |
-|-------------|---------|---------------|--------------|------------|-----------------|
-|   Training  | 0.9782  | 0.9637        | 0.8266       | 0.7238     | 0.9908          |
-|   Testing   | 0.9774  | 0.9590        | 0.8250       | 0.7200     | 0.9914          |
+   | **Metric**  | **AUC** | **Precision** | **F1-Score** | **Recall** | **Specificity** |
+   |-------------|---------|---------------|--------------|------------|-----------------|
+   |   Training  | 0.9782  | 0.9637        | 0.8266       | 0.7238     | 0.9908          |
+   |   Testing   | 0.9774  | 0.9590        | 0.8250       | 0.7200     | 0.9914          |
 
+<p align="center"><img src="images/metrics_heatmap.png" alt="Heatmap of Metrics" width="800" class="center" style="margin-top: 10px;"/></p>
 
 ---
 
@@ -103,11 +103,10 @@ LightGBM outperformed other models in terms of both accuracy and generalization.
 
 ## 🔧 IoT System Details
 
-### 🖼️ Circuit Diagram and Setup
+### 🖼️ Circuit Diagram
 
 <p align="center">
   <img src="images/circuit.png" alt="Circuit Diagram" width="50%" height="350px"/>
-  <img src="images/iot.png" alt="Final Setup" width="40%" height="350px"/>
 </p>
 
 
@@ -142,6 +141,11 @@ LightGBM outperformed other models in terms of both accuracy and generalization.
    - `25–50`: MODERATE
    - `50–75`: HIGH
    - `75–100`: EXTREME
+
+### ❄️ Setup
+
+<p align="center"><img src="images/iot.png" alt="Final Setup" width="40%" height="450px" class="center" style="margin-bottom: 10px;"/></p>
+
 
 ### ☁️ Firebase Integration
 
