@@ -46,23 +46,6 @@
 
 ### ✅ Evaluation Metrics
 
-<img src="images/output.png" alt="Comparison of Models" width="45%" style="margin-bottom: 10px;"/>
-
-| Model                   | Accuracy | Recall  | F1-Score | Specificity |
-|-------------------------|----------|---------|----------|-------------|
-| LightGBM                | 83.99%   | 88.17%  | 84.64%   | 79.82%      |
-| RandomForest            | 83.55%   | 87.78%  | 84.22%   | 79.31%      |
-| Gradient Boosting       | 83.23%   | 87.53%  | 83.92%   | 78.92%      |
-| SVM                     | 82.97%   | 89.72%  | 84.05%   | 76.22%      |
-| MultiLayer Perceptron   | 82.52%   | 84.58%  | 82.87%   | 80.46%      |
-| CNN                     | 82.13%   | 85.86%  | 82.78%   | 78.41%      |
-| Logistic Classifier     | 80.78%   | 84.19%  | 81.42%   | 77.38%      |
-| AdaBoost                | 79.43%   | 80.98%  | 79.75%   | 77.89%      |
-| NaiveBayes Classifier   | 71.98%   | 67.87%  | 70.78%   | 76.09%      |
-
-
-### 📈 Plot Explanations
-
 <ul>
   <li>
     <strong>SHAP Analysis</strong>: Shows feature contribution for better explainability.<br/>
@@ -88,10 +71,25 @@
 ## ⚠️ Model Comparison
 
 Various models were tested including:
-- LightGBM (best-performing)
+- LightGBM
 - Random Forest
 - Support Vector Machines
 - Logistic Regression
+
+<img src="images/output.png" alt="Comparison of Models" width="45%" style="margin-bottom: 10px;"/>
+
+| Model                   | Accuracy | Recall  | F1-Score | Specificity |
+|-------------------------|----------|---------|----------|-------------|
+| LightGBM                | 83.99%   | 88.17%  | 84.64%   | 79.82%      |
+| RandomForest            | 83.55%   | 87.78%  | 84.22%   | 79.31%      |
+| Gradient Boosting       | 83.23%   | 87.53%  | 83.92%   | 78.92%      |
+| SVM                     | 82.97%   | 89.72%  | 84.05%   | 76.22%      |
+| MultiLayer Perceptron   | 82.52%   | 84.58%  | 82.87%   | 80.46%      |
+| CNN                     | 82.13%   | 85.86%  | 82.78%   | 78.41%      |
+| Logistic Classifier     | 80.78%   | 84.19%  | 81.42%   | 77.38%      |
+| AdaBoost                | 79.43%   | 80.98%  | 79.75%   | 77.89%      |
+| NaiveBayes Classifier   | 71.98%   | 67.87%  | 70.78%   | 76.09%      |
+
 
 LightGBM outperformed other models in terms of both accuracy and generalization.
 
@@ -105,7 +103,7 @@ LightGBM outperformed other models in terms of both accuracy and generalization.
   - 🟡 Moderate
   - 🔴 High
 
-<img src="images/Heatmap_satellite.jpg" alt="Heatmap" width="45%"/>
+<img src="images/Heatmap_satellite.jpg" alt="Heatmap" width="45%" style="margin-right: 10px;"/>
 
 ---
 
@@ -155,6 +153,21 @@ LightGBM outperformed other models in terms of both accuracy and generalization.
 
 - Realtime sensor updates under `/sensor_readings`
 - Alerts pushed to `/alerts` node with cooldown mechanism
+
+---
+
+## 🔧 Android Application
+
+- Real-time Alert and Informative Dashboard
+- Interactive Maps
+- Reporting incidents and Community Forum
+
+<p align="center">
+  <img src="images/dashboard.jpg" alt="Dashboard" width="22%" height="550px"/>
+  <img src="images/alert.jpg" alt="Alert Modal" width="22%" height="550px"/>
+  <img src="images/map.jpg" alt="Interactive Map" width="22%" height="550px"/>
+  <img src="images/forum.jpg" alt="Community Forum" width="22%" height="550px"/>
+</p>
 
 ---
 
