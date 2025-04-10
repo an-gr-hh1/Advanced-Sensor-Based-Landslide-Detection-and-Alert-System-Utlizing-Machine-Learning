@@ -49,11 +49,11 @@
 <ul>
   <li>
     <strong>SHAP Analysis</strong> & <strong>Confusion Matrix</strong><br/>
-    <img src="images/matrix plot.png" alt="SHAP Summary Plot" width="85%"/>
+    <img src="images/matrix plot.jpg" alt="SHAP Summary Plot and Confusion Matrix" width="90%"/>
   </li>
   <li>
     <strong>ROC Curve</strong> & <strong>Precision-Recall Curve</strong><br/>
-    <img src="images/curve.png" alt="ROC Curve" width="85%"/>
+    <img src="images/curve.jpg" alt="ROC and PR Curve" width="90%"/>
   </li>
 </ul>
 
@@ -68,7 +68,7 @@ Various models were tested including:
 - Support Vector Machines
 - Logistic Regression
 
-<img src="images/output.png" alt="Comparison of Models" width="45%" style="margin-bottom: 10px;"/>
+<img src="images/output.png" alt="Comparison of Models" width="90%" style="margin-bottom: 10px;"/>
 
 | Model                   | Accuracy | Recall  | F1-Score | Specificity |
 |-------------------------|----------|---------|----------|-------------|
@@ -95,7 +95,7 @@ LightGBM outperformed other models in terms of both accuracy and generalization.
   - 🟡 Moderate
   - 🔴 High
 
-<img src="images/landslide_risk.jpg" alt="Heatmap" width="85%" style="margin-right: 10px;"/>
+<img src="images/landslide_risk.jpg" alt="Heatmap" width="90%" style="margin-right: 10px;"/>
 
 ---
 
@@ -103,9 +103,9 @@ LightGBM outperformed other models in terms of both accuracy and generalization.
 
 ### 🖼️ Circuit Diagram and Setup
 
-<p align="center">
+<p align="center" gap="10px">
   <img src="images/circuit.png" alt="Circuit Diagram" width="50%" height="350px"/>
-  <img src="images/iot.png" alt="Final Setup" width="40%" height="350px" style="margin-right: 10px;"/>
+  <img src="images/iot.png" alt="Final Setup" width="40%" height="350px"/>
 </p>
 
 
