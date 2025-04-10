@@ -63,10 +63,6 @@
 
 <ul>
   <li>
-    <strong>Correlation Matrix</strong>: Highlights correlation between each feature.<br/>
-    <img src="images/correlation.png" alt="Correlation Matrix" width="45%"/>
-  </li>
-  <li>
     <strong>SHAP Analysis</strong>: Shows feature contribution for better explainability.<br/>
     <img src="images/shap.png" alt="SHAP Summary Plot" width="45%"/>
   </li>
@@ -81,10 +77,6 @@
   <li>
     <strong>Precision-Recall Curve</strong>: Compares precision vs. recall rate.<br/>
     <img src="images/pr.png" alt="Precision-Recall Curve" width="45%"/>
-  </li>
-  <li>
-    <strong>Feature Importance (LightGBM)</strong>: Shows dominant features influencing landslides.<br/>
-    <img src="images/feature_importance.png" alt="Feature Importance from LightGBM" width="45%"/>
   </li>
 </ul>
 
@@ -111,17 +103,17 @@ LightGBM outperformed other models in terms of both accuracy and generalization.
   - 🟡 Moderate
   - 🔴 High
 
-These points are dynamically updated based on real-time data and model prediction.
+<img src="images/Heatmap_satellite.jpg" alt="Heatmap" width="45%"/>
 
 ---
 
 ## 🔧 IoT System Details
 
 ### 🖼️ Circuit Diagram and Setup
-<p align="center">
-  <img src="images/circuit.png" alt="Circuit Diagram" width="50%" height="350px"/>
-  <img src="images/iot.png" alt="Final Setup" width="40%" height="350px" style="margin-right: 10px;"/>
-</p>
+
+<img src="images/circuit.png" alt="Circuit Diagram" width="50%" height="350px"/>
+<img src="images/iot.png" alt="Final Setup" width="40%" height="350px" style="margin-right: 10px;"/>
+
 
 1. ESP32 Microcontroller  
 2. Raindrop Sensor  
@@ -132,26 +124,18 @@ These points are dynamically updated based on real-time data and model predictio
 ### 📏 Equations and Logic Used
 
 1. **Moisture + Rainfall Risk Index**
-   ```math
-   RiskIndex = (0.6 * Moisture%) + (0.4 * Rain%)
-   ```
+   `RiskIndex = (0.6 × Moisture%) + (0.4 × Rain%)`  
    > Alert if RiskIndex > 58%
 
 2. **Rainfall + Vibration Multiplicative Risk**
-   ```math
-   RiskMulti = (Rain% / 40) * (Vibration / 20)
-   ```
+   `RiskMulti = (Rain% / 40) × (Vibration / 20)`  
    > Alert if RiskMulti > 0.35
 
 3. **Triple Alert Criteria**
-   ```text
-   Moisture% >= 50 AND Rain% >= 20 AND Vibration >= 12
-   ```
+   `Moisture% >= 50 AND Rain% >= 20 AND Vibration >= 12`
 
 4. **Risk Level Calculation**
-   ```math
-   Overall Risk (%) = 0.4 * MoistureRisk + 0.4 * RainRisk + 0.2 * VibrationRisk
-   ```
+    `Overall Risk (%) = 0.4 × MoistureRisk + 0.4 × RainRisk + 0.2 × VibrationRisk`
 
 5. **Categorization**
    - `0–25`: LOW
