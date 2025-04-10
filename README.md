@@ -61,37 +61,33 @@
 
 ### 📈 Plot Explanations
 
-<div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center;">
-  <div style="flex: 1 1 45%;">
-    <strong>Correlation Matrix</strong>: Highlights correlation between each feature.
-    <img src="images/correlation.png" alt="Correlation Matrix" style="width: 45%;">
-  </div>
-  
-  <div style="flex: 1 1 45%;">
-    <strong>SHAP Analysis</strong>: Shows feature contribution for better explainability.
-    <img src="images/shap.png" alt="SHAP Summary Plot" style="width: 45%;">
-  </div>
-  
-  <div style="flex: 1 1 45%;">
-    <strong>Confusion Matrix</strong>: Highlights class prediction distribution.
-    <img src="images/confusion.png" alt="Confusion Matrix" style="width: 45%;">
-  </div>
-  
-  <div style="flex: 1 1 45%;">
-    <strong>ROC Curve</strong>: Compares true positive rate vs. false positive rate.
-    <img src="images/roc.png" alt="ROC Curve" style="width: 45%;">
-  </div>
-  
-  <div style="flex: 1 1 45%;">
-    <strong>Precision-Recall Curve</strong>: Compares precision vs. recall rate.
-    <img src="images/pr.png" alt="Precision-Recall Curve" style="width: 45%;">
-  </div>
-  
-  <div style="flex: 1 1 45%;">
-    <strong>Feature Importance (LightGBM)</strong>: Shows dominant features influencing landslides.
-    <img src="images/feature_importance.png" alt="Feature Importance from LightGBM" style="width: 45%;">
-  </div>
-</div>
+<ul>
+  <li>
+    <strong>Correlation Matrix</strong>: Highlights correlation between each feature.<br/>
+    <img src="images/correlation.png" alt="Correlation Matrix" width="45%"/>
+  </li>
+  <li>
+    <strong>SHAP Analysis</strong>: Shows feature contribution for better explainability.<br/>
+    <img src="images/shap.png" alt="SHAP Summary Plot" width="45%"/>
+  </li>
+  <li>
+    <strong>Confusion Matrix</strong>: Highlights class prediction distribution.<br/>
+    <img src="images/confusion.png" alt="Confusion Matrix" width="45%"/>
+  </li>
+  <li>
+    <strong>ROC Curve</strong>: Compares true positive rate vs. false positive rate.<br/>
+    <img src="images/roc.png" alt="ROC Curve" width="45%"/>
+  </li>
+  <li>
+    <strong>Precision-Recall Curve</strong>: Compares precision vs. recall rate.<br/>
+    <img src="images/pr.png" alt="Precision-Recall Curve" width="45%"/>
+  </li>
+  <li>
+    <strong>Feature Importance (LightGBM)</strong>: Shows dominant features influencing landslides.<br/>
+    <img src="images/feature_importance.png" alt="Feature Importance from LightGBM" width="45%"/>
+  </li>
+</ul>
+
 
 ---
 
