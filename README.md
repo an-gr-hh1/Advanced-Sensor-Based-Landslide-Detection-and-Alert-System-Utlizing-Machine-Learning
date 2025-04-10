@@ -95,10 +95,15 @@ These points are dynamically updated based on real-time data and model predictio
 
 ### 🖼️ Circuit Diagram and Setup
 <p align="center">
-  <img src="images/circuit.png" alt="Circuit Diagram" width="45%" style="margin-right: 10px;"/>
-  <img src="images/iot.png" alt="Final Setup" width="45%"/>
+  <img src="images/circuit.png" alt="Circuit Diagram" width="50%" height="50px" style="margin-right: 5px;"/>
+  <img src="images/iot.png" alt="Final Setup" width="40%" height="50px"/>
 </p>
 
+1. ESP32 Microcontroller  
+2. Raindrop Sensor  
+3. Soil Moisture Sensor 
+4. 3-axis ADXL 345 Accelerometer Sensor 
+5. Neo 6M GPS Module 
 
 ### 📏 Equations and Logic Used
 
