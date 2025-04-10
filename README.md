@@ -64,32 +64,32 @@
 <div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: center;">
   <div style="flex: 1 1 45%;">
     <strong>Correlation Matrix</strong>: Highlights correlation between each feature.
-    <img src="images/correlation.png" alt="Correlation Matrix" style="width: 100%; height: auto;">
+    <img src="images/correlation.png" alt="Correlation Matrix" style="width: 45%;">
   </div>
   
   <div style="flex: 1 1 45%;">
     <strong>SHAP Analysis</strong>: Shows feature contribution for better explainability.
-    <img src="images/shap.png" alt="SHAP Summary Plot" style="width: 100%; height: auto;">
+    <img src="images/shap.png" alt="SHAP Summary Plot" style="width: 45%;">
   </div>
   
   <div style="flex: 1 1 45%;">
     <strong>Confusion Matrix</strong>: Highlights class prediction distribution.
-    <img src="images/confusion.png" alt="Confusion Matrix" style="width: 100%; height: auto;">
+    <img src="images/confusion.png" alt="Confusion Matrix" style="width: 45%;">
   </div>
   
   <div style="flex: 1 1 45%;">
     <strong>ROC Curve</strong>: Compares true positive rate vs. false positive rate.
-    <img src="images/roc.png" alt="ROC Curve" style="width: 100%; height: auto;">
+    <img src="images/roc.png" alt="ROC Curve" style="width: 45%;">
   </div>
   
   <div style="flex: 1 1 45%;">
     <strong>Precision-Recall Curve</strong>: Compares precision vs. recall rate.
-    <img src="images/pr.png" alt="Precision-Recall Curve" style="width: 100%; height: auto;">
+    <img src="images/pr.png" alt="Precision-Recall Curve" style="width: 45%;">
   </div>
   
   <div style="flex: 1 1 45%;">
     <strong>Feature Importance (LightGBM)</strong>: Shows dominant features influencing landslides.
-    <img src="images/feature_importance.png" alt="Feature Importance from LightGBM" style="width: 100%; height: auto;">
+    <img src="images/feature_importance.png" alt="Feature Importance from LightGBM" style="width: 45%;">
   </div>
 </div>
 
