@@ -62,17 +62,17 @@
 ### 📈 Plot Explanations
 
 - **Correlation Matrix**: Highlights correlation between each feature.
-  <img src="images/correlation.png" alt="Correlation Matrix" width="45%"/>
+<img src="images/correlation.png" alt="Correlation Matrix" width="45%"/>
 - **SHAP Analysis**: Shows feature contribution for better explainability.
-  <img src="images/shap.png" alt="SHAP Summary Plot" width="45%"/>
+<img src="images/shap.png" alt="SHAP Summary Plot" width="45%"/>
 - **Confusion Matrix**: Highlights class prediction distribution.
-  <img src="images/confusion.png" alt="Confusion Matrix" width="45%"/>
+<img src="images/confusion.png" alt="Confusion Matrix" width="45%"/>
 - **ROC Curve**: Compares true positive rate vs. false positive rate.
-  <img src="images/roc.png" alt="ROC Curve" width="45%"/>
+<img src="images/roc.png" alt="ROC Curve" width="45%"/>
 - **Precision-Recall Curve**: Compares precision vs. recall rate.
-  <img src="images/pr.png" alt="Precision-Recall Curve" width="45%"/>
+<img src="images/pr.png" alt="Precision-Recall Curve" width="45%"/>
 - **Feature Importance (LightGBM)**: Shows dominant features influencing landslides.
-  <img src="images/feature_importance.png" alt="Feature Importance from LightGBM" width="45%"/>
+<img src="images/feature_importance.png" alt="Feature Importance from LightGBM" width="45%"/>
 
 ---
 
