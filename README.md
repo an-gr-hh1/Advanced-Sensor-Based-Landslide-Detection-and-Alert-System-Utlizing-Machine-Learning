@@ -111,8 +111,10 @@ LightGBM outperformed other models in terms of both accuracy and generalization.
 
 ### 🖼️ Circuit Diagram and Setup
 
-<img src="images/circuit.png" alt="Circuit Diagram" width="50%" height="350px"/>
-<img src="images/iot.png" alt="Final Setup" width="40%" height="350px" style="margin-right: 10px;"/>
+<p align="center">
+  <img src="images/circuit.png" alt="Circuit Diagram" width="50%" height="350px"/>
+  <img src="images/iot.png" alt="Final Setup" width="40%" height="350px" style="margin-right: 10px;"/>
+</p>
 
 
 1. ESP32 Microcontroller  
@@ -124,20 +126,24 @@ LightGBM outperformed other models in terms of both accuracy and generalization.
 ### 📏 Equations and Logic Used
 
 1. **Moisture + Rainfall Risk Index**
-   `RiskIndex = (0.6 × Moisture%) + (0.4 × Rain%)`  
+
+   - `RiskIndex = (0.6 × Moisture%) + (0.4 × Rain%)`  
    > Alert if RiskIndex > 58%
 
-2. **Rainfall + Vibration Multiplicative Risk**
-   `RiskMulti = (Rain% / 40) × (Vibration / 20)`  
+3. **Rainfall + Vibration Multiplicative Risk**
+
+   - `RiskMulti = (Rain% / 40) × (Vibration / 20)`  
    > Alert if RiskMulti > 0.35
 
-3. **Triple Alert Criteria**
-   `Moisture% >= 50 AND Rain% >= 20 AND Vibration >= 12`
+4. **Triple Alert Criteria**
 
-4. **Risk Level Calculation**
-    `Overall Risk (%) = 0.4 × MoistureRisk + 0.4 × RainRisk + 0.2 × VibrationRisk`
+   - `Moisture% >= 50 AND Rain% >= 20 AND Vibration >= 12`
 
-5. **Categorization**
+5. **Risk Level Calculation**
+
+   - `Overall Risk (%) = 0.4 × MoistureRisk + 0.4 × RainRisk + 0.2 × VibrationRisk`
+
+7. **Categorization**
    - `0–25`: LOW
    - `25–50`: MODERATE
    - `50–75`: HIGH
