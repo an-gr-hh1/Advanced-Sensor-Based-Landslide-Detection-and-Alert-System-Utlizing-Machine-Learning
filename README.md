@@ -100,7 +100,7 @@ LightGBM outperformed other models in terms of both accuracy and generalization.
 
 <p align="center"><img src="images/landslide_risk.jpg" alt="Heatmap" width="800" class="center" style="margin-bottom: 10px;"/></p>
 
-- For better visual understanding refer to [Heatmap](landslide_heatmap.html)
+- For better visual understanding refer to [`Heatmap`](landslide_heatmap.html)
 ---
 
 ## 🔧 IoT System Details
