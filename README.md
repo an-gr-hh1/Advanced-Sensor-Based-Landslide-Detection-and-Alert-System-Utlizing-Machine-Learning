@@ -189,26 +189,26 @@ Before you begin, ensure you have the following installed:
 
 #### 1. Clone the Repository
 
-    1.1. Open your terminal/command prompt.
+   1.1. Open your terminal/command prompt.
     
-    1.2. Run the following command to clone the repository to your local machine:
+   1.2. Run the following command to clone the repository to your local machine:
     
-    ```bash
-    git clone https://github.com/an-gr-hh1/Advanced-Sensor-Based-Landslide-Detection-and-Alert-System-Utlizing-Machine-Learning.git
-    ```
+   ```bash
+   git clone https://github.com/an-gr-hh1/Advanced-Sensor-Based-Landslide-Detection-and-Alert-System-Utlizing-Machine-Learning.git
+   ```
 #### 2. Open the Project in Android Studio
 
 #### 3. Sync Gradle
 
 #### 4. Check the SDK Version and Dependencies
 
-    4.1. Setup and add necessary API keys for Google Map and OpenWeatherMap
+   4.1. Setup and add necessary API keys for Google Map and OpenWeatherMap
   
-    4.2. Get google-services JSON file from firebase project and add it to the app folder
-    ```bash
+   4.2. Get google-services JSON file from firebase project and add it to the app folder
+   ```bash
     ├── app/
     │   ├── google-services.json
-    ```
+   ```
 
 #### 5. Connect a Device or Launch an Emulator
 
