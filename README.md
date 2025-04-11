@@ -249,4 +249,4 @@ These files help define how the project is built and what dependencies are used.
 
 ## 📬 Contact
 
-For any queries, reach out at [your-email@example.com].
+For any queries, reach out at [anugrahpremachandran235@gmail.com].
