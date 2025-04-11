@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AdvancedLandslideApp</string>
+    <string name="probability_prefix">Probability: </string>
+    <string name="alert_title">Landslide Alert!</string>
+    <string name="channel_name">Alert Channel</string>
+    <string name="channel_description">Channel for alert notifications</string>
+</resources>
