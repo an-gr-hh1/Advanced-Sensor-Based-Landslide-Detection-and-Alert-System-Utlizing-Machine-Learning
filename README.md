@@ -99,7 +99,7 @@ LightGBM outperformed other models in terms of both accuracy and generalization.
 
 <p align="center"><img src="images/landslide_risk.jpg" alt="Heatmap" width="800" class="center" style="margin-bottom: 10px;"/></p>
 
-- For better visual understanding refer to <a href=landslide_heatmap.html placeholder="Heatmap">
+- For better visual understanding refer to [Heatmap](landslide_heatmap.html)
 ---
 
 ## 🔧 IoT System Details
@@ -171,7 +171,7 @@ LightGBM outperformed other models in terms of both accuracy and generalization.
 
 ---
 
-## Android Application Setup Guide
+## 🪄 Android Application Setup Guide
 
 This guide provides a step-by-step process to clone an Android application project from GitHub and run it in Android Studio.
 
@@ -189,13 +189,13 @@ Before you begin, ensure you have the following installed:
 
 #### 1. Clone the Repository
 
-##### 1.1. Open your terminal/command prompt.
-
-##### 1.2. Run the following command to clone the repository to your local machine:
-
-```bash
-git clone https://github.com/an-gr-hh1/Advanced-Sensor-Based-Landslide-Detection-and-Alert-System-Utlizing-Machine-Learning.git
-```
+  ##### 1.1. Open your terminal/command prompt.
+  
+  ##### 1.2. Run the following command to clone the repository to your local machine:
+  
+  ```bash
+  git clone https://github.com/an-gr-hh1/Advanced-Sensor-Based-Landslide-Detection-and-Alert-System-Utlizing-Machine-Learning.git
+  ```
 #### 2. Open the Project in Android Studio
 
 #### 3. Sync Gradle
@@ -218,6 +218,15 @@ your-project/
 ├── proguard-rules.pro           # ProGuard configuration (if applicable)
 ```
 
+### 📁 Important Files
+
+Here are some key configuration files in the project that you might want to check:
+
+- [`build.gradle`](build.gradle): Top-level Gradle build script for project-wide settings and dependency repositories.
+- [`app/build.gradle`](app/build.gradle): Module-level Gradle script where dependencies and Android-specific configurations are declared.
+- [`gradle/libs.versions.toml`](gradle/libs.versions.toml): Centralized version catalog used for managing plugin and library versions (if the project uses version catalogs).
+
+These files help define how the project is built and what dependencies are used.
 ---
 
 ## 📌 Project Highlights
