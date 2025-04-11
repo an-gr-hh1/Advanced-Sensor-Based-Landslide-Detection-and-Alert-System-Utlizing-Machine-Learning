@@ -97,8 +97,9 @@ LightGBM outperformed other models in terms of both accuracy and generalization.
   - 🟡 Moderate
   - 🔴 High
 
-<p align="center"><img src="images/landslide_risk.jpg" alt="Heatmap" width="800" class="center"/></p>
+<p align="center"><img src="images/landslide_risk.jpg" alt="Heatmap" width="800" class="center" style="margin-bottom: 10px;"/></p>
 
+- For better visual understanding refer to <a href=landslide_heatmap.html placeholder="Heatmap">
 ---
 
 ## 🔧 IoT System Details
@@ -144,7 +145,7 @@ LightGBM outperformed other models in terms of both accuracy and generalization.
 
 ### ❄️ Setup
 
-<p align="center"><img src="images/iot.png" alt="Final Setup" width="40%" height="450px" class="center" style="margin-bottom: 10px;"/></p>
+<p align="center"><img src="images/iot.png" alt="Final Setup" width="40%" height="380px" class="center" style="margin-bottom: 10px;"/></p>
 
 
 ### ☁️ Firebase Integration
@@ -161,12 +162,61 @@ LightGBM outperformed other models in terms of both accuracy and generalization.
 - Reporting incidents and Community Forum
 
 <p align="center">
-  <img src="images/dashboard.jpg" alt="Dashboard" width="250px" height="450px"/>
-  <img src="images/alert.jpg" alt="Alert Modal" width="250px" height="450px"/>
-  <img src="images/map.jpg" alt="Interactive Map" width="250px" height="450px"/>
-  <img src="images/report.jpg" alt="Incident Report" width="250px" height="450px"/>
-  <img src="images/forum.jpg" alt="Community Forum" width="250px" height="450px"/>
+  <img src="images/dashboard.jpg" alt="Dashboard" width="250px" height="500px"/>
+  <img src="images/alert.jpg" alt="Alert Modal" width="250px" height="500px"/>
+  <img src="images/map.jpg" alt="Interactive Map" width="250px" height="500px"/>
+  <img src="images/report.jpg" alt="Incident Report" width="250px" height="500px"/>
+  <img src="images/forum.jpg" alt="Community Forum" width="250px" height="500px"/>
 </p>
+
+---
+
+## Android Application Setup Guide
+
+This guide provides a step-by-step process to clone an Android application project from GitHub and run it in Android Studio.
+
+### 📋 Prerequisites
+
+Before you begin, ensure you have the following installed:
+
+- [Android Studio](https://developer.android.com/studio) (latest version recommended)
+- [Java Development Kit (JDK) 8 or higher](https://adoptopenjdk.net/)
+- [Git](https://git-scm.com/)
+
+---
+
+### 🚀 Steps to Clone and Run the Android Project
+
+#### 1. Clone the Repository
+
+##### 1.1. Open your terminal/command prompt.
+
+##### 1.2. Run the following command to clone the repository to your local machine:
+
+```bash
+git clone https://github.com/an-gr-hh1/Advanced-Sensor-Based-Landslide-Detection-and-Alert-System-Utlizing-Machine-Learning.git
+```
+#### 2. Open the Project in Android Studio
+
+#### 3. Sync Gradle
+
+#### 4. Check the SDK Version and Dependencies
+
+#### 5. Connect a Device or Launch an Emulator
+
+#### 6. Build and Run the Application
+
+#### 7. Project Structure Overview
+```bash
+your-project/
+├── app/                         # Main Android app module
+│   ├── src/                     # Source code files
+│   ├── res/                     # Resources (layouts, strings, images, etc.)
+│   ├── build.gradle             # App-level build configuration
+├── build.gradle                 # Top-level build file for all modules
+├── settings.gradle              # Gradle settings file
+├── proguard-rules.pro           # ProGuard configuration (if applicable)
+```
 
 ---
 
